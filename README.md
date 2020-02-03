@@ -56,3 +56,5 @@ It's also possible to run the tests against Browserstack (www.browserstack.com).
 
 
 By defult setting of Appium Contoller class are set for Samsung S8 + Android 7.0, but that can be changed based on your preferences.
+
+Additional resources: https://www.browserstack.com/app-automate/appium-webdriverio
