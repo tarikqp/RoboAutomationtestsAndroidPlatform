@@ -44,7 +44,7 @@ _**How to set up the project**_
 
 - If you are going to use Android Emulator, you have to instal Android Studio and create emulator. Check here: https://developer.android.com/studio/run/emulator how to create Android Emulator and make sure to you are set desired capabilities for your device in AppiumController class (src/test/java/AppiumSupport/AppiumController.java). By defult it is set for 9.0 Android version. At same place you can add your real device. Note that your real device may not accept makeGSMcall() by Appium. It dependes on USB debugging and limitation of certion phone. In Emulators this works perfectly fine.
 
-**How to run tests on Browserstack:*
+**How to run tests on Browserstack:**
 
 It's also possible to run the tests against Browserstack (www.browserstack.com). To do this you need to do the following.
 
