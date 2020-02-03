@@ -22,7 +22,7 @@ public class AppiumController {
     //Browserstack setup
     private static String BS_USERNAME = "<your bs Name>";
     private static String BS_ACCESSKEY = "<your bs key>";
-    private static String DEVICE_NAME = "emulator-5554";
+    private static String DEVICE_NAME = "<your emulator or real device ID>";
     private static String PLATFORM_VERSION = "9.0";
 
     // Choose execution enviroment
