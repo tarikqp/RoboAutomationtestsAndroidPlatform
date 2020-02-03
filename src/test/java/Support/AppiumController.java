@@ -20,10 +20,12 @@ public class AppiumController {
     protected static AndroidDriver<MobileElement> driver;
 
     //Browserstack setup
-    private static String BS_USERNAME = "<your bs Name>";
+    private static String BS_USERNAME = "<your bs mame>";
     private static String BS_ACCESSKEY = "<your bs key>";
     private static String DEVICE_NAME = "<your emulator or real device ID>";
     private static String PLATFORM_VERSION = "9.0";
+    private static String BROWSERSTACK_APPURL = "<Your app url>";
+    
 
     // Choose execution enviroment
     public static OS executionOS = OS.ANDROID;
@@ -65,7 +67,7 @@ public class AppiumController {
                 capabilities.setCapability("project", "My First Project");
                 capabilities.setCapability("build", "My First Build");
                 capabilities.setCapability("name", "Bstack-[Java] Sample Test");
-                capabilities.setCapability("app", "bs://a5520c893e8b7fdc4aeaa1b996c87971651bf145");
+                capabilities.setCapability("app", BROWSERSTACK_APPURL);
                 capabilities.setCapability("autoGrantPermissions", true);
                 driver = new AndroidDriver<MobileElement>(new URL("https://" + BS_USERNAME + ":" + BS_ACCESSKEY + "@hub-cloud.browserstack.com/wd/hub"), capabilities);
                 break;
