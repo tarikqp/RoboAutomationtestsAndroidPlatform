@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41789a37-c045-438f-9017-14be7e01ffa5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Automation testing RoboKiller.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Support/AppiumController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Support/AppiumController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Support/AppiumController$OS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Support/AppiumController$OS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Support/AppiumController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Support/AppiumController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Support/TestListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Support/TestListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/BaseTestClass$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/BaseTestClass$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/BaseTestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/BaseTestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/SampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/SampleTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,26 +177,26 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="276" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580558615083" />
-    <state width="1877" height="290" key="GridCell.Tab.0.bottom" timestamp="1580764754423">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="270" key="GridCell.Tab.0.bottom" timestamp="1580766010946">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580764754423" />
-    <state width="1877" height="412" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580574899645" />
-    <state width="1877" height="290" key="GridCell.Tab.0.center" timestamp="1580764754423">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580766010946" />
+    <state width="1877" height="270" key="GridCell.Tab.0.center" timestamp="1580766010946">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="290" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580764754423" />
-    <state width="1877" height="412" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580574899645" />
-    <state width="1877" height="290" key="GridCell.Tab.0.left" timestamp="1580764754423">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="270" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580766010946" />
+    <state width="1877" height="270" key="GridCell.Tab.0.left" timestamp="1580766010946">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="290" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580764754423" />
-    <state width="1877" height="412" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580574899645" />
-    <state width="1877" height="290" key="GridCell.Tab.0.right" timestamp="1580764754423">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="270" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580766010946" />
+    <state width="1877" height="270" key="GridCell.Tab.0.right" timestamp="1580766010946">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="290" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580764754423" />
-    <state width="1877" height="412" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580574899645" />
+    <state width="1877" height="270" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580766010946" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1580570346290">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
