@@ -37,10 +37,8 @@ public class SampleTest extends BaseTestClass {
         int blocked = Integer.parseInt(blck);
         int suspicious = Integer.parseInt(sus);
         main.makeCall("+38761077961");
-        //driver.makeGsmCall("+38761077961", GsmCallActions.CALL);
         Thread.sleep(3000);
-        main.cancelCall("38761077961");
-        //driver.makeGsmCall("+38761077961", GsmCallActions.CANCEL);
+        main.cancelCall("+38761077961");
         Assert.assertEquals(0, blocked);
         Assert.assertEquals(0, suspicious);
     }
@@ -53,10 +51,10 @@ public class SampleTest extends BaseTestClass {
         Thread.sleep(2000);
         String str1 = main.suspiciousCalls.getText();
         int num1 = Integer.parseInt(str1);
-        driver.makeGsmCall("4259501212", GsmCallActions.CALL);
+        main.makeCall("4259501212");
         main.assertToastMessage("Beware! Suspicious caller.");
         Thread.sleep(2000);
-        driver.makeGsmCall("4259501212", GsmCallActions.CANCEL);
+        main.cancelCall("4259501212");
         main.assertIncrementOfSuspiciousCalls(num1);
 
     }
@@ -70,10 +68,10 @@ public class SampleTest extends BaseTestClass {
         Thread.sleep(2000);
         String str2 = main.numberBlockedCalls.getText();
         int num2 = Integer.parseInt(str2);
-        driver.makeGsmCall("2539501212", GsmCallActions.CALL);
+        main.makeCall("2539501212");
         main.assertToastMessage("Blocking this call");
         Thread.sleep(3000);
-        driver.makeGsmCall("2539501212", GsmCallActions.CANCEL);
+        main.cancelCall("2539501212");
         main.assertIncrementOfBlockedCalls(num2);
     }
 

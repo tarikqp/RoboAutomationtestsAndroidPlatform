@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41789a37-c045-438f-9017-14be7e01ffa5" name="Default Changelist" comment="" />
+    <list default="true" id="41789a37-c045-438f-9017-14be7e01ffa5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Automation testing RoboKiller.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Support/AppiumController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Support/AppiumController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Support/AppiumController$OS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Support/AppiumController$OS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Support/AppiumController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Support/AppiumController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Support/TestListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Support/TestListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/BaseTestClass$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/BaseTestClass$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/BaseTestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/BaseTestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/SampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/SampleTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +30,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XCjXUVh1PQ79rhImZ3iSNFiRLy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,7 +41,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -36,16 +53,20 @@
       <recent name="C:\Users\tarik\IdeaProjects\Automation testing RoboKiller\src\test\java\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SampleTest">
-    <configuration name="SampleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tests.SampleTest" />
-      <module name="Automation testing RoboKiller" />
+  <component name="RunManager" selected="TestNG.SampleTest (1)">
+    <configuration name="SampleTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RoboAutomationtestsAndroidPlatform" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SampleTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleTest.failedTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation testing RoboKiller" />
+    <configuration name="SampleTest.verifyFriendCall (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RoboAutomationtestsAndroidPlatform" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -95,7 +116,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.SampleTest" />
-      <option name="METHOD_NAME" value="failedTest" />
+      <option name="METHOD_NAME" value="verifyFriendCall" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -123,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SampleTest (1)" />
+        <item itemvalue="TestNG.SampleTest.verifyFriendCall (1)" />
         <item itemvalue="TestNG.SampleTest" />
         <item itemvalue="TestNG.SampleTest.assertMainAppElemenets" />
         <item itemvalue="TestNG.SampleTest.verifyFriendCall" />
-        <item itemvalue="Application.SampleTest" />
-        <item itemvalue="TestNG.SampleTest.failedTest" />
       </list>
     </recent_temporary>
   </component>
@@ -165,25 +186,25 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="276" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580558615083" />
-    <state width="1877" height="290" key="GridCell.Tab.0.bottom" timestamp="1580758373305">
+    <state width="1877" height="290" key="GridCell.Tab.0.bottom" timestamp="1580764754423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580758373305" />
+    <state width="1877" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580764754423" />
     <state width="1877" height="412" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580574899645" />
-    <state width="1877" height="290" key="GridCell.Tab.0.center" timestamp="1580758373305">
+    <state width="1877" height="290" key="GridCell.Tab.0.center" timestamp="1580764754423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580758373305" />
+    <state width="1877" height="290" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580764754423" />
     <state width="1877" height="412" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580574899645" />
-    <state width="1877" height="290" key="GridCell.Tab.0.left" timestamp="1580758373305">
+    <state width="1877" height="290" key="GridCell.Tab.0.left" timestamp="1580764754423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580758373305" />
+    <state width="1877" height="290" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580764754423" />
     <state width="1877" height="412" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580574899645" />
-    <state width="1877" height="290" key="GridCell.Tab.0.right" timestamp="1580758373305">
+    <state width="1877" height="290" key="GridCell.Tab.0.right" timestamp="1580764754423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580758373305" />
+    <state width="1877" height="290" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580764754423" />
     <state width="1877" height="412" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580574899645" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1580570346290">
       <screen x="1920" y="0" width="1920" height="1040" />
