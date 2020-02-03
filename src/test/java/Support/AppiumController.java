@@ -20,8 +20,8 @@ public class AppiumController {
     protected static AndroidDriver<MobileElement> driver;
 
     //Browserstack setup
-    private static String BS_USERNAME = "tarikpelko2";
-    private static String BS_ACCESSKEY = "y5zn6f2fbRCscCYLsycw";
+    private static String BS_USERNAME = "<your bs Name>";
+    private static String BS_ACCESSKEY = "<your bs key>";
     private static String DEVICE_NAME = "emulator-5554";
     private static String PLATFORM_VERSION = "9.0";
 
