@@ -42,7 +42,7 @@ _**How to set up the project**_
 
 - Start the appium server and run the example test “sampleTest” in /src/test/java/tests/SampleTest.java. Make sure your default server is set to **127.0.0.1:4723**
 
-- If you are going to use Android Emulator, you have to instal Android Studio and create emulator. Check here: https://developer.android.com/studio/run/emulator how to create Android Emulator and make sure to you are set desired capabilities for your device in AppiumController class (src/test/java/AppiumSupport/AppiumController.java). By defult it is set for 9.0 Android version. At same place you can add your real device. Note that your real device may not accept makeGSMcall() by Appium. It dependes on USB debugging and limitation of certion phone. In Emulators this works perfectly fine.
+- If you are going to use Android Emulator, you have to install Android Studio and create device. Check here: https://developer.android.com/studio/run/emulator how to create Android Emulator and make sure to you are set desired capabilities for your device in AppiumController class (src/test/java/AppiumSupport/AppiumController.java). By defult it is set for 9.0 Android version. At same place you can add your real device. Note that your real device may not accept makeGSMcall() by Appium. It dependes on USB debugging and limitation of certion phone. In Emulators this works perfectly fine.
 
 **How to run tests on Browserstack:**
 
