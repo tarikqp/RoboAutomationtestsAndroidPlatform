@@ -76,7 +76,7 @@ public class SampleTest extends BaseTestClass {
     }
 
 
-    // This test is set tu faile to see how iTestListener works
+    // This test is set to fail in order to see how iTestListener works
     @Test
     public void failedTest() {
         MainPage main = new MainPage(driver);
